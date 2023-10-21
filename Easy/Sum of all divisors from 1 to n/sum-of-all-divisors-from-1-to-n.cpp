@@ -16,7 +16,6 @@ public:
             sum += (N/i)*i;
         }
         return sum;
-        
     }
 };
 
