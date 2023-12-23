@@ -20,7 +20,7 @@ class Solution
         for(auto it : mp){
             if(it.second > n/k)ans++;
         }
-   return ans;
+ return ans;
     }
 };
 
