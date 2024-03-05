@@ -13,7 +13,7 @@ class Solution{
     int maxIndexDiff(int a[], int n) 
     { 
         // Your code here
-        vector<pair<int, int>> v;
+         vector<pair<int, int>> v;
         for(int i=0; i<n; i++){
             v.push_back({a[i], i});
         }
