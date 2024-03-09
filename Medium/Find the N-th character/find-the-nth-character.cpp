@@ -10,7 +10,7 @@ class Solution{
   public:
     char nthCharacter(string s, int r, int n) {
         //code here
-           string temp="";
+         string temp="";
         for(int i=0;i<r;i++)
         {
             int j=0;
