@@ -27,8 +27,7 @@ class Solution {
   }
     long long genFibNum(long long a, long long b, long long c, long long n, long long m) {
         // code here
-         // code here
-        if(n<=2){
+          if(n<=2){
             return 1;
         }
         vector<vector<long long>>v(3, vector<long long>(3,0));
