@@ -4,8 +4,7 @@ using namespace std;
 
 // } Driver Code Ends
 class Solution {
-  public:
-   vector<vector<long long>> multiply(vector<vector<long long>> mat1, vector<vector<long long>> mat2, long long m){
+  public: vector<vector<long long>> multiply(vector<vector<long long>> mat1, vector<vector<long long>> mat2, long long m){
       vector<vector<long long>>ans(3, vector<long long>(3,0));
       for(int i=0;i<3;i++){
           for(int j=0;j<3;j++){
