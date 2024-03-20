@@ -117,8 +117,7 @@ struct Node
 class Solution
 {
 public:
-    
-    
+   
     int height=1;
     int sum=0;
     int sumOfLongRootToLeafPath(Node *root)
@@ -145,7 +144,7 @@ public:
             return;
         }
         dfs(root->left,data+root->data,lvl+1);
-        dfs(root->right,data+root->data,lvl+1);
+        dfs(root->right,data+root->data,lvl+1);  //code here
     }
 };
 
