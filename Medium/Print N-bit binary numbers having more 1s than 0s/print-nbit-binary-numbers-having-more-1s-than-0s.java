@@ -26,6 +26,7 @@ class GFG {
 //User function Template for Java
 
 class Solution {
+    
     void helper(int N,ArrayList<String> myList,String currString,int val1,int val0){
         if(val1+val0==N){
             myList.add(currString);
@@ -41,7 +42,5 @@ class Solution {
         String currStr="1";
         helper(N,myList,currStr,1,0);
         return myList;
-    // ArrayList<String> NBitBinary(int N) {
-    //     // code here
     }
 }
