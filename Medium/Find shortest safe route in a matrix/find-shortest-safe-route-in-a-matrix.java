@@ -73,7 +73,7 @@ class GFG {
 
 
 class Solution {
-      public static int solve(int[][] mat, int i, int j,boolean[][] vis,int count)
+    public static int solve(int[][] mat, int i, int j,boolean[][] vis,int count)
     {
         
         if(i < 0 || i >= mat.length || j < 0 || j > mat[0].length || mat[i][j] == -1 || mat[i][j] == 0 || vis[i][j])
