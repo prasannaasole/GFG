@@ -5,7 +5,7 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
 public:
- void dfs(int i,vector<int>adj[], vector<bool>& vis){
+	 void dfs(int i,vector<int>adj[], vector<bool>& vis){
        if(vis[i])return ;
        vis[i] = true;
        for(auto j:adj[i]){
