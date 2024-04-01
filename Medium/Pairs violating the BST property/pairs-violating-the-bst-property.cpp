@@ -94,8 +94,7 @@ struct Node
 class Solution {
   public:
 
-    /*You are required to complete below function */
-   int merge(int low, int high, int mid, vector<int> &v)
+    int merge(int low, int high, int mid, vector<int> &v)
     {
         int left = low;
         int right = mid+1;
@@ -159,7 +158,7 @@ class Solution {
        /* for(int i = 0; i < v.size(); i++)
             cout << v[i] << " ";*/
         return mergesort(0, n-1, v);
-        //return cnt;  // your code goes here
+        //return cnt;
     }
 };
 
