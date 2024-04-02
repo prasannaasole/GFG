@@ -107,7 +107,7 @@ struct Node {
 class Solution
 {
     
-     int val = Integer.MAX_VALUE;
+    int val = Integer.MAX_VALUE;
     Node prev = null;
     void find(Node root){
         if(root == null)return;
