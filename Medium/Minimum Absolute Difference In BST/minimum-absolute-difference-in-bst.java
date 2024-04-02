@@ -123,6 +123,5 @@ class Solution
         //Your code here
         find(root);
         return val;
-   
     }
 }
