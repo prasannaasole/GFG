@@ -6,7 +6,7 @@ using namespace std;
 class Solution{
 
 	public:
-	int solveTab(int m, int n, vector<vector<int>> points)
+int solveTab(int m, int n, vector<vector<int>> points)
     {
         vector<vector<int>> dp(m, vector<int> (n, 0));
         int initial = 0 - points[m-1][n-1];
