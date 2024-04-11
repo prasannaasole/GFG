@@ -8,14 +8,14 @@ using namespace std;
 // } Driver Code Ends
 //User function Template for C++
 
-        class Solution{
-            public:
-            // function to convert a given Gray equivalent n to Binary equivalent.
-            int grayToBinary(int n)
-            {
-                
-                // Your code here
-                 vector<int> binary;
+class Solution{
+    public:
+    // function to convert a given Gray equivalent n to Binary equivalent.
+    int grayToBinary(int n)
+    {
+        
+        // Your code here
+         vector<int> binary;
                 while(n)
                 {
                     binary.push_back(n&1);
@@ -34,8 +34,8 @@ using namespace std;
                     counter--;
                 }
                 return ans;
-                
-            }
+        
+    }
 };
 
 //{ Driver Code Starts.
