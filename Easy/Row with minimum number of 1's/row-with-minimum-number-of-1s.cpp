@@ -9,7 +9,7 @@ using namespace std;
 
 class Solution {
   public:
-     int minRow(int n, int m, vector<vector<int>> a) {
+    int minRow(int n, int m, vector<vector<int>> a) {
         
         int mini=INT_MAX; //declaration of mini var.
         int cnt; //count
