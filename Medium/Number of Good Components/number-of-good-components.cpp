@@ -29,7 +29,7 @@ class Matrix {
 
 class Solution {
   public:
-     void dfs(int node, vector<int> adj[], int size, int &cv, bool &flag, vector<int> &vis) {
+    void dfs(int node, vector<int> adj[], int size, int &cv, bool &flag, vector<int> &vis) {
         vis[node] = 1;
         cv++;
         
