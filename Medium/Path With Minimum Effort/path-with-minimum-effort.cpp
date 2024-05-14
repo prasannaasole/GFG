@@ -29,7 +29,7 @@ class Matrix {
 
 class Solution {
   public:
-   vector<pair<int, int>> dir = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    vector<pair<int, int>> dir = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
     int MinimumEffort(int rows, int cols, vector<vector<int>> &heights) {
         
@@ -70,6 +70,7 @@ class Solution {
 
     }
 };
+
 
 //{ Driver Code Starts.
 
