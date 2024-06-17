@@ -10,7 +10,7 @@ using namespace std;
 
 class Solution {
   public:
-     float line(int p1[], int q1[], int p2[]){
+    float line(int p1[], int q1[], int p2[]){
         float m = ((float)q1[1] - p1[1]) / ((float)q1[0] - p1[0]);
         return (float)p2[1] - p1[1] - m * (p2[0] - p1[0]);
     }
