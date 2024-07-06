@@ -117,7 +117,7 @@ struct Node
 class Solution {
   public:
 
-    void build(Node*& root , Node*& prev){
+  void build(Node*& root , Node*& prev){
        if(root){
            build(root->left , prev);
            if(prev){
