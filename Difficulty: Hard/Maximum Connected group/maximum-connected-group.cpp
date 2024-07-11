@@ -10,7 +10,7 @@ using namespace std;
 
 class Solution {
   public:
-     class DSU {
+    class DSU {
         public:
         vector<int> par, sz;
         
