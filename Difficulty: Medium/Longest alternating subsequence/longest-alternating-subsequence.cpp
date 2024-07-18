@@ -18,6 +18,7 @@ class Solution {
                 dec = inc + 1;
         }
         return max(inc,dec);
+        
     }
 };
 
