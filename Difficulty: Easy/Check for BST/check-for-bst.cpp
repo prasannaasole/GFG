@@ -20,7 +20,7 @@ struct Node {
 class Solution {
   public:
     // Function to check whether a Binary Tree is BST or not.
-    bool isvalid(Node* root, int a ,int b)
+      bool isvalid(Node* root, int a ,int b)
     {
         if(root==NULL)
         return true;
