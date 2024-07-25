@@ -79,7 +79,7 @@ struct Node {
 
 class Solution {
   public:
-    Node* BST(vector<int>&nums,int i,int j){
+      Node* BST(vector<int>&nums,int i,int j){
         if(i>j)
             return NULL;
         int mid=(i+j)/2;
