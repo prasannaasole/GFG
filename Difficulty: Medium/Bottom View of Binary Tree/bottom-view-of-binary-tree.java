@@ -120,7 +120,7 @@ class GfG {
 class Solution
 {
     //Function to return a list containing the bottom view of the given tree.
-    
+   
     static class pair{
         Node node;
         int level;
