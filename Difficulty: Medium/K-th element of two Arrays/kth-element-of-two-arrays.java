@@ -37,7 +37,7 @@ class GFG {
 
 class Solution {
     public long kthElement(int k, int arr1[], int arr2[]) {
-        // code here
+        // code 
             int total = arr1.length + arr2.length;
         
         ArrayList<Integer> latestArray = new ArrayList();
