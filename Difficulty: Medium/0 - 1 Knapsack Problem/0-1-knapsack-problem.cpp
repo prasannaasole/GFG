@@ -7,7 +7,7 @@ using namespace std;
 class Solution {
   public:
     // Function to return max value that can be put in knapsack of capacity W.
-     vector<vector<int>> memo;
+    vector<vector<int>> memo;
 
     int knapsackhelper(int index, int W, vector<int>& wt, vector<int>& val) {
         if (index == 0 ) {
