@@ -9,7 +9,7 @@ using namespace std;
 
 class Solution{
 public:
-       vector<vector<int>> res;
+      vector<vector<int>> res;
     void solveNQueen(vector<int>& q, int row, int n) {
         if (row == n) 
         {
