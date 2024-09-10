@@ -9,7 +9,7 @@ using namespace std;
 // User function Template for C++
 
 class Solution {
-     private:
+    private:
     
     void dfs(int node, vector<int> adj[], vector<int> &vis){
         
